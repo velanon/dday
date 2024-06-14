@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fathers Day</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>enter the password in <u>lowercase</u> to access.</h1>
+        <form id="password-form">
+            <input type="password" id="password" placeholder="type in lowercase" required>
+            <button type="submit">Access</button>
+        </form>
+        <div id="password-count"></div>
+    </div>
+    <div id="content" class="hidden">
+        <h2>Password?</h2>
+        <p>Name of your Wife?</p>
+        <p>Name of your Eldest?</p>
+        <p>Name of your Youngest?</p>
+        <p>What is your name?</p>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
